@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoVision - Productos</title>
+    <link rel="stylesheet" href="Productos.css">
+    <link rel="icon" href="Imagenes/PC.png" type="image/x-icon">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Animate.css para animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="preloader"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo animate__animated animate__fadeIn">TechnoVision</div>
+            <ul class="nav-list animate__animated animate__slideInRight">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="#" class="active">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos-hero" class="hero">
+            <div class="hero-content container">
+                <h1 class="animate__animated animate__bounceIn">Nuestros Productos</h1>
+                <p class="animate__animated animate__fadeIn" style="animation-delay: 0.5s;">Descubre nuestra gama de
+                    soluciones tecnológicas</p>
+            </div>
+        </section>
+        <br>
+        <section id="productos" class="section">
+            <div class="container">
+                <div class="search-filter">
+                    <input type="text" id="search" placeholder="Buscar productos..."
+                        class="animate__animated animate__fadeIn">
+                    <select id="service-filter" class="animate__animated animate__fadeIn">
+                        <option value="all">Todos los servicios</option>
+                        <option value="web">Desarrollo Web</option>
+                        <option value="software">Desarrollo de Software</option>
+                        <option value="infra">Infraestructura</option>
+                        <option value="soporte">Soporte Técnico</option>
+                        <option value="cctv">Sistemas CCTV</option>
+                        <option value="redes">Redes</option>
+                        <option value="capacitacion">Capacitación</option>
+                        <option value="asesoria">Asesoría</option>
+                    </select>
+                </div>
+
+                <div id="productos-grid" class="productos-grid">
+                    <!-- Los productos se cargarán aquí dinámicamente -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-section animate__animated animate__fadeIn">
+                <h3>TechnoVision</h3>
+                <p>Innovación tecnológica para el futuro</p>
+            </div>
+            <div class="footer-section animate__animated animate__slideInLeft">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section animate__animated animate__slideInRight">
+                <h3>Contacto</h3>
+                <p>Email: info@technovision.com</p>
+                <p>Teléfono: +1 234 567 890</p>
+            </div>
+            <div class="footer-section animate__animated animate__fadeIn">
+                <h3>Ubicación</h3>
+                <p>123 Calle Tecnología, Ciudad Innovación</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.7168240138412!2d-76.8188725!3d-11.9940857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105e9d12191914f%3A0x201ad65bdbcdafa9!2sIESTP%20MISIONEROS%20MONFORTIANOS!5e0!3m2!1ses-419!2spe!4v1727221377594!5m2!1ses-419!2spe"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom animate__animated animate__fadeIn">
+            <p>&copy; 2024 TechnoVision. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="chat-boxes">
+        <a href="https://wa.me/1234567890" target="_blank" class="chat-box whatsapp animate__animated animate__fadeIn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://m.me/tu-pagina-de-facebook" target="_blank"
+            class="chat-box facebook animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Productos.js"></script>
+</body>
+
+</html>

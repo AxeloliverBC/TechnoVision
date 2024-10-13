@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoVision - Servicios</title>
+    <link rel="stylesheet" href="Servicios.css">
+    <link rel="icon" href="Imagenes/PC.png" type="image/x-icon">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Animate.css para animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="preloader"></div>
+    <div class="loader"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo animate__animated animate__fadeIn">TechnoVision</div>
+            <ul class="nav-list animate__animated animate__slideInRight">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="#" class="active">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicios-hero" class="hero">
+            <div class="hero-content container">
+                <h1 class="animate__animated animate__bounceIn">Nuestros Servicios</h1>
+                <p class="animate__animated animate__fadeIn" style="animation-delay: 0.5s;">Soluciones tecnológicas a
+                    medida para impulsar tu negocio</p>
+            </div>
+        </section>
+        
+        <section id="servicios" class="section">
+
+            <div class="servicios-grid animate__animated animate__fadeIn">
+                <div class="servicio-card" data-servicio="web">
+                    <i class="fas fa-globe"></i>
+                    <h3>Desarrollo de Páginas Web</h3>
+                    <p>Creamos sitios web responsivos y atractivos</p>
+                </div>
+                <div class="servicio-card" data-servicio="software">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Desarrollo de Software</h3>
+                    <p>Soluciones de software personalizadas</p>
+                </div>
+                <div class="servicio-card" data-servicio="infra">
+                    <i class="fas fa-server"></i>
+                    <h3>Implementación de Infraestructura</h3>
+                    <p>Optimizamos tu infraestructura tecnológica</p>
+                </div>
+                <div class="servicio-card" data-servicio="soporte">
+                    <i class="fas fa-headset"></i>
+                    <h3>Soporte de Equipo de Cómputo</h3>
+                    <p>Asistencia técnica rápida y eficiente</p>
+                </div>
+                <div class="servicio-card" data-servicio="cctv">
+                    <i class="fas fa-video"></i>
+                    <h3>Implementación de Sistemas CCTV</h3>
+                    <p>Sistemas de vigilancia de última generación</p>
+                </div>
+                <div class="servicio-card" data-servicio="redes">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Implementación de Infraestructura de Redes</h3>
+                    <p>Redes seguras y eficientes para tu empresa</p>
+                </div>
+                <div class="servicio-card" data-servicio="capacitacion">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Capacitación y Auditoría de Sistemas</h3>
+                    <p>Formación y evaluación de sistemas IT</p>
+                </div>
+                <div class="servicio-card" data-servicio="asesoria">
+                    <i class="fas fa-comments"></i>
+                    <h3>Asesoramiento de Implementación de Software</h3>
+                    <p>Guía experta en selección e implementación</p>
+                </div>
+
+            </div>
+
+            <div id="servicio-detalle" class="servicio-detalle">
+                <div class="detalle-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h2 id="detalle-titulo"></h2>
+                    <p id="detalle-descripcion"></p>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-section animate__animated animate__fadeIn">
+                <h3>TechnoVision</h3>
+                <p>Innovación tecnológica para el futuro</p>
+            </div>
+            <div class="footer-section animate__animated animate__slideInLeft">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section animate__animated animate__slideInRight">
+                <h3>Contacto</h3>
+                <p>Email: info@technovision.com</p>
+                <p>Teléfono: +1 234 567 890</p>
+            </div>
+            <div class="footer-section animate__animated animate__fadeIn">
+                <h3>Ubicación</h3>
+                <p>123 Calle Tecnología, Ciudad Innovación</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.7168240138412!2d-76.8188725!3d-11.9940857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105e9d12191914f%3A0x201ad65bdbcdafa9!2sIESTP%20MISIONEROS%20MONFORTIANOS!5e0!3m2!1ses-419!2spe!4v1727221377594!5m2!1ses-419!2spe"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom animate__animated animate__fadeIn">
+            <p>&copy; 2024 TechnoVision. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!-- Chat boxes -->
+    <div class="chat-boxes">
+        <a href="https://wa.me/1234567890" target="_blank" class="chat-box whatsapp animate__animated animate__fadeIn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://m.me/tu-pagina-de-facebook" target="_blank"
+            class="chat-box facebook animate__animated animate__fadeIn" style="animation-delay: 0.5s;">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Animación al hacer scroll
+            $(window).scroll(function () {
+                $('.animate__animated').each(function () {
+                    var elementTop = $(this).offset().top;
+                    var elementBottom = elementTop + $(this).outerHeight();
+                    var viewportTop = $(window).scrollTop();
+                    var viewportBottom = viewportTop + $(window).height();
+
+                    if (elementBottom > viewportTop && elementTop < viewportBottom) {
+                        $(this).addClass('animate__fadeIn');
+                    }
+                });
+            });
+
+            // Mostrar detalles del servicio
+            $('.servicio-card').click(function () {
+                var servicio = $(this).data('servicio');
+                var titulo = $(this).find('h3').text();
+                var descripcion = obtenerDescripcionServicio(servicio);
+
+                $('#detalle-titulo').text(titulo);
+                $('#detalle-descripcion').text(descripcion);
+                $('#servicio-detalle').fadeIn();
+            });
+
+            // Cerrar detalles del servicio
+            $('.cerrar').click(function () {
+                $('#servicio-detalle').fadeOut();
+            });
+
+            // Cerrar detalles al hacer clic fuera del contenido
+            $(window).click(function (e) {
+                if ($(e.target).is('#servicio-detalle')) {
+                    $('#servicio-detalle').fadeOut();
+                }
+            });
+
+            function obtenerDescripcionServicio(servicio) {
+                switch (servicio) {
+                    case 'web':
+                        return "Creamos sitios web modernos, responsivos y optimizados para SEO. Nuestro equipo de desarrolladores y diseñadores trabaja en estrecha colaboración con usted para crear una presencia en línea que refleje la identidad de su marca y cumpla con sus objetivos comerciales.";
+                    case 'software':
+                        return "Desarrollamos soluciones de software a medida para optimizar sus procesos empresariales. Desde aplicaciones de escritorio hasta sistemas empresariales complejos, nuestro equipo de expertos en desarrollo de software crea soluciones robustas y escalables que se adaptan perfectamente a sus necesidades específicas.";
+                    case 'infra':
+                        return "Diseñamos e implementamos infraestructuras de TI eficientes y seguras. Nuestro servicio incluye la evaluación de sus necesidades actuales y futuras, la selección e instalación de hardware y software, y la configuración de sistemas para garantizar un rendimiento óptimo y una alta disponibilidad.";
+                    case 'soporte':
+                        return "Ofrecemos soporte técnico integral para mantener sus equipos de cómputo funcionando sin problemas. Nuestro equipo de técnicos altamente capacitados está disponible para resolver problemas de hardware y software, realizar mantenimiento preventivo y brindar asistencia remota o in situ según sea necesario.";
+                    case 'cctv':
+                        return "Implementamos sistemas de videovigilancia CCTV de última generación para proteger sus activos y personal. Nuestras soluciones incluyen cámaras de alta definición, sistemas de grabación avanzados y software de gestión intuitivo, todo diseñado para proporcionar una seguridad robusta y una supervisión eficaz.";
+                    case 'redes':
+                        return "Diseñamos e implementamos infraestructuras de red seguras, escalables y de alto rendimiento. Nuestros servicios abarcan desde la planificación y diseño de la red hasta la instalación de hardware, configuración de dispositivos y optimización del rendimiento, garantizando una conectividad confiable y segura para su empresa.";
+                    case 'capacitacion':
+                        return "Ofrecemos programas de capacitación personalizados para mejorar las habilidades de su equipo en el uso de sistemas y tecnologías. Además, realizamos auditorías exhaustivas de sus sistemas de TI para identificar áreas de mejora, garantizar el cumplimiento normativo y optimizar la eficiencia operativa.";
+                    case 'asesoria':
+                        return "Proporcionamos asesoramiento experto en la selección e implementación de software empresarial. Nuestros consultores trabajan con usted para entender sus necesidades, evaluar las opciones disponibles y guiarle a través del proceso de implementación, asegurando una integración exitosa y una adopción efectiva por parte de los usuarios.";
+                    default:
+                        return "Descripción no disponible.";
+                }
+            }
+        });
+
+        window.addEventListener('load', function () {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('fade-out');
+        });
+    </script>
+</body>
+
+</html>
